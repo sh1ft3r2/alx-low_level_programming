@@ -2,10 +2,9 @@
 
 /**
  * print_alphabet - Entry point
-  void print_alphabet - a function that prints the
+  void print_alphabet(void) - a function that prints the
  * alphabet, in lowercase, followed by a new line
  *
- * Return: Always 0
  */
 
 void print_alphabet(void)
@@ -14,9 +13,9 @@ void print_alphabet(void)
 
 	while (m <= 'z')
 	{
-		putchar('z');
+		_putchar(m);
+		m++;
 	}
-		putchar('\n');
-			m++;
+		_putchar('\n');
 
 }
