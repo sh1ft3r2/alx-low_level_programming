@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - Entry point
-  void print_alphabet(void) - a function that prints the
+ * void print_alphabet(void) - a function that prints the
  * alphabet, in lowercase, followed by a new line
  *
  */
